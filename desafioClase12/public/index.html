@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./socket.io/socket.io.js"></script>
+    <title>SocketIo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="formAddProd">
+            <h1>Ingrese su producto</h1>
+
+            <form id="addProduct">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" class="formName" name="title" required>
+                </div>
+
+                <div>
+                    <label for="precio">Precio</label>
+                    <input id="precio" type="number" name="price" required>
+                </div>
+
+                <div>
+                    <label for="foto">Imagen del producto(URL)</label>
+                    <input type="url" name="thumbnail" id="imagen" required>
+                </div>
+
+                <button class="btnSend">Enviar</button>
+            </form>
+            <div id="productos"></div>
+        </div>
+
+        <div class="chat">
+            <h1>Mensajes</h1>
+
+            <input type="text" id="inpUsername" placeholder="Ingrese su nombre">
+
+            <div id="mensajes"></div>
+            <form id="publicarMensaje">
+                <div>
+                    <input type="text" id="inpMensaje"  placeholder="Ingrese su mensaje">
+                    <button  id="btnEnviar" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

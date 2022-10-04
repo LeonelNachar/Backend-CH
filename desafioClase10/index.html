@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars</title>
+</head>
+<body>
+    <div id="root">
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script>
+            const hbTemplate = Handlebars.compile(`
+            <h1>Datos Personales</h1>
+            <ul>
+                <li>Nombre: {{name}}</li>
+                <li>Apellido: {{lastname}}</li>
+                <li>Edad: {{age}}</li>
+                <li>Email: {{email}}</li>
+                <li>Teléfono: {{number}}</li>
+            </ul>
+            `);
+
+            const html = hbTemplate({ name: "Leo", lastname: "Miapellido", age: 20, email: "asdasd@gmail.com", number: "323232"});
+            document.querySelector("#root").innerHTML = html
+
+        </script>
+
+    
+    
+
+
+</body>
+</html>

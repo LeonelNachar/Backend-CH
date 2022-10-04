@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "tilte": "Producto 1",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "tilte": "Producto 2",
+        "price": 50
+    },
+    {
+        "id": 3,
+        "tilte": "Producto 3",
+        "price": 75
+    },
+    {
+        "id": 4,
+        "tilte": "Producto 4",
+        "price": 100
+    }
+]
