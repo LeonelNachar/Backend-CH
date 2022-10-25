@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "timestamp": 1666733663445,
+      "name": "DSA",
+      "price": 1000,
+      "description": "9/12/18",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 2,
+      "timestamp": "",
+      "name": "Racing",
+      "price": 750,
+      "description": "F",
+      "thumbnail": "https://www.racingclub.com.ar/img/escudo/escudo1995_2.png",
+      "code": "002",
+      "stock": 2
+    },
+    {
+      "id": 3,
+      "timestamp": "",
+      "name": "Independiente",
+      "price": 500,
+      "description": "10ac",
+      "thumbnail": "https://i.pinimg.com/736x/76/1d/21/761d218d7770440910948ccea2860651.jpg",
+      "code": "003",
+      "stock": 3
+    },
+    {
+      "id": 4,
+      "timestamp": 1666658025986,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18213",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 5,
+      "timestamp": "",
+      "name": "Boca Juniors",
+      "price": 0,
+      "description": "Juniors",
+      "thumbnail": "https://www.bocajuniors.com.ar/rebrand/images/escudos/historia/Escudo-66-Estrellas.png",
+      "code": "005",
+      "stock": 5
+    },
+    {
+      "id": 6,
+      "timestamp": 1666657519732,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 7,
+      "timestamp": 1666657972248,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18213",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 8,
+      "timestamp": 1666657999825,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18213",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 9,
+      "timestamp": 1666658296557,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18213",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 10,
+      "timestamp": 1666731818606,
+      "name": "River",
+      "price": 1000,
+      "description": "9/12/18",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 11,
+      "timestamp": 1666731874687,
+      "name": "DSA",
+      "price": 1000,
+      "description": "9/12/18",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    },
+    {
+      "id": 12,
+      "timestamp": 1666733653619,
+      "name": "DSA",
+      "price": 1000,
+      "description": "9/12/18",
+      "thumbnail": "https://media.tycsports.com/files/2022/02/22/393443/escudo-river_w416.jpg",
+      "code": "001",
+      "stock": 1
+    }
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "timestamp": "",
+      "products": []
+    },
+    {
+      "id": 2,
+      "timestamp": 1666659501680,
+      "products": []
+    },
+    {
+      "id": 3,
+      "timestamp": 1666659600257,
+      "products": [
+        {
+          "id": 3,
+          "timestamp": "",
+          "name": "Independiente",
+          "price": 500,
+          "description": "10ac",
+          "thumbnail": "https://i.pinimg.com/736x/76/1d/21/761d218d7770440910948ccea2860651.jpg",
+          "code": "003",
+          "stock": 3
+        },
+        {
+          "id": 2,
+          "timestamp": "",
+          "name": "Racing",
+          "price": 750,
+          "description": "F",
+          "thumbnail": "https://www.racingclub.com.ar/img/escudo/escudo1995_2.png",
+          "code": "002",
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": 1666659608357,
+      "products": []
+    },
+    {
+      "id": 5,
+      "timestamp": 1666659976119,
+      "products": []
+    },
+    {
+      "id": 6,
+      "timestamp": 1666660508609,
+      "products": []
+    },
+    {
+      "id": 7,
+      "timestamp": 1666660612910,
+      "products": []
+    },
+    {
+      "id": 8,
+      "timestamp": 1666664117731,
+      "products": []
+    },
+    {
+      "id": 9,
+      "timestamp": 1666723971898,
+      "products": []
+    },
+    {
+      "id": 10,
+      "timestamp": 1666731956209,
+      "products": []
+    },
+    {
+      "id": 11,
+      "timestamp": 1666733109707,
+      "products": []
+    },
+    {
+      "id": 12,
+      "timestamp": 1666733604922,
+      "products": []
+    }
+  ]
+}
